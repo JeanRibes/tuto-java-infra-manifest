@@ -19,7 +19,7 @@ spec:
         - name: registry-pull-secret
       containers:
         - name: dso-demo-java
-          image: harbor.apps.c6.numerique-interieur.com/mi-certfr/app-java-forge-dso-demo:master
+          image: harbor.apps.dso.numerique-interieur.com/form-crtjr/java-demo@sha256:e98c3b89750ce3db542e8e85055c26a0f174e7ef27adbe4b09d086e33c5ae460 
           imagePullPolicy: Always
           env:
             - name: SPRING_DATASOURCE_USERNAME
